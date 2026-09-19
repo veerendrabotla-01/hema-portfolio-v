@@ -1,180 +1,93 @@
-# My Personal MERN Stack Portfolio
+# Hema Nandam — Software Engineer & AI/ML Specialist
 
 <p align="center">
-  <img src="https://munna-scriptz.vercel.app/preview.png" alt="Portfolio Preview" width="700" />
-</p>
-
-<p align="center">
-  A modern, animated, and performance-focused developer portfolio built with React and motion-first design principles.
+  A modern, highly animated, and performance-focused professional developer portfolio built with React and motion-first design principles.
 </p>
 
 ---
 
-## Overview
+## 👤 About Me
 
-This is my personal developer portfolio designed to present my work, skills, and experience in a clean and engaging way. The focus is on smooth user experience, thoughtful animations, and a responsive layout that works seamlessly across devices. Every section is intentionally crafted to reflect my approach to frontend development and UI/UX design.
+I am a **B.Tech CSE (Artificial Intelligence & Machine Learning) Graduate** and **Software Engineer** from Mandapeta, Andhra Pradesh, India. I specialize in building cloud-based applications, machine learning, natural language processing, and advanced responsive web interfaces.
 
----
-
-## Features
-
-* Fully responsive layout for all screen sizes
-* Custom design system built with Tailwind CSS
-* Smooth page and component animations using Framer Motion
-* Advanced motion effects and scroll interactions powered by GSAP
-* Clean, reusable React component architecture
-* Dedicated sections for projects, skills, and personal information
-* Dark and light theme support
+*   **Email:** [hemanandam6301171106@gmail.com](mailto:hemanandam6301171106@gmail.com)
+*   **Phone:** +91 6301171106
+*   **Location:** Mandapeta, Andhra Pradesh, India
+*   **LinkedIn:** [Hema Nandam](https://www.linkedin.com/in/hema-nandam-4415a8313)
+*   **GitHub:** [hema082004](https://github.com/hema082004)
 
 ---
 
-## Tech Stack
+## 💼 Experience & Internships
 
-### Frontend
+### ☁️ AWS & Cloud Development Intern
+**Technical Hub** | *May 2025 – June 2025*
+*   Developed highly scalable cloud applications on AWS.
+*   Leveraged **Boto3**, **API Gateway**, and **AWS Lambda** for seamless serverless backend functionality.
 
-* React.js
-* Tailwind CSS
-* Framer Motion
-* GSAP
-* Redux
-* React Icons
-* & More
-
-### Tools & Workflow
-
-* VS Code
-* Git & GitHub
-* Figma (design and layout planning)
+### 💻 Full-Stack & AWS Intern
+**Technical Hub** | *May 2024 – July 2024*
+*   Built and deployed an interactive E-Learning platform.
+*   Engineered responsive interfaces in **React** and **Angular**, and connected serverless API layers on AWS Lambda, API Gateway, DynamoDB, and Amazon S3.
 
 ---
 
-## Project Structure
+## 🚀 Key Projects
 
-```
-───src
-    │   App.css
-    │   App.jsx
-    │   index.css
-    │   main.jsx
-    │
-    ├───assets
-    │   │
-    │   └───images
-    │
-    ├───components
-    │   │   Cursor.jsx
-    │   │   Loader.jsx
-    │   │   PageTransition.jsx
-    │   │
-    │   ├───About Me
-    │   │       AboutBan.jsx
-    │   │       AboutText.jsx
-    │   │       MyReview.jsx
-    │   │       Review.jsx
-    │   │       Services.jsx
-    │   │
-    │   ├───common
-    │   │       ExploreMyWork.jsx
-    │   │       Footer.jsx
-    │   │       Navbar.jsx
-    │   │       ResNavbar.jsx
-    │   │
-    │   ├───Contact
-    │   │       ContactBan.jsx
-    │   │
-    │   ├───effects
-    │   │       BlurText.jsx
-    │   │       CircularText.jsx
-    │   │       DecayCard.jsx
-    │   │       Magnet.jsx
-    │   │       ScrollFloat.jsx
-    │   │       ScrollProgress.jsx
-    │   │       ScrollReveal.jsx
-    │   │       SkeletonLoader.jsx
-    │   │
-    │   ├───home
-    │   │       AboutMe.jsx
-    │   │       Banner.jsx
-    │   │       ContactMe.jsx
-    │   │       Counter.jsx
-    │   │       HomeServices.jsx
-    │   │       InfoCards.jsx
-    │   │       LetsWorkTogether.jsx
-    │   │       Projects.jsx
-    │   │       ProjectsShow.jsx
-    │   │       ScrollingGithubBall.jsx
-    │   │       Skills.jsx
-    │   │
-    │   ├───Projects
-    │   │       AllProjects.jsx
-    │   │       HtmlCssProjects.jsx
-    │   │       JsProjects.jsx
-    │   │       NextProject.jsx
-    │   │       ProjectsBanner.jsx
-    │   │       ReactProjects.jsx
-    │   │
-    │   ├───ui
-    │   └───utils
-    │           PreloaderWrapper.jsx
-    │           SmoothScroll.jsx
-    │
-    ├───layout
-    │       LayoutOne.jsx
-    │
-    └───pages
-            About.jsx
-            Contact.jsx
-            Home.jsx
-            Projects.jsx
-```
+1.  **Unstop++** (Co-Founder & Full-Stack Developer)
+    *   Opportunity & notices platform.
+2.  **Opportunity Hub** (Co-System Architect & Product Lead)
+    *   Unified ecosystem for career discovery and applications.
+3.  **Daadi Board Game** (Co-Developer & Mobile Engineer)
+    *   Traditional Indian Board Game platform with high-performance animations.
+4.  **ARISE : Life OS** (Co-Developer & Android Engineer)
+    *   A cohesive personal productivity, health, and schedule tracker.
+5.  **Fake News Detection System** (NLP / Machine Learning Engineer)
+    *   Advanced NLP pipeline classifying news reports with high precision.
 
 ---
 
-## Purpose
+## 🛠️ Tech Stack
 
-This portfolio was built to:
-
-* Showcase my frontend development skills
-* Highlight selected projects and real-world work
-* Demonstrate my interest in animations and UI/UX design
-* Establish a professional online presence
-* Improve personal branding with SEO-friendly structure and content
+*   **Languages:** Java, Python, JavaScript, SQL
+*   **Cloud & DevOps:** Amazon Web Services (AWS Lambda, API Gateway, S3, DynamoDB, Boto3)
+*   **Frontend Web:** React.js, Angular, Tailwind CSS, Motion, GSAP
+*   **AI/ML:** Machine Learning, Natural Language Processing (NLP)
 
 ---
 
-## Live Preview
+## 🎓 Education
 
-* **Website:** [https://munna-scriptz.vercel.app](https://munna-scriptz.vercel.app)
-
-This portfolio is indexed on Google and appears in top search results under **"Munna Scriptz"**, with SEO best practices applied for performance, accessibility, and discoverability.
+*   **B.Tech in CSE (Artificial Intelligence & Machine Learning)**
+    *   *Aditya College of Engineering & Technology, Surampalem* (2022 – 2026) | Grade: **72%**
+*   **Intermediate (MPC)**
+    *   *Vidya Vikas Junior College, Mandapeta* (2020 – 2022) | Grade: **87%**
+*   **High School**
+    *   *Z. P. Girls High School, Mandapeta* (2019 – 2020) | Grade: **95.5%**
 
 ---
 
-## Installation
+## 🏆 Certifications
 
-To run this project locally:
+*   **AWS Certified Developer – Associate** (Amazon Web Services)
+*   **Introduction to Machine Learning** (NPTEL)
+
+---
+
+## ⚙️ Local Development Setup
+
+To run this portfolio locally:
 
 ```bash
-git clone https://github.com/Munna-Scriptz/Portfolio.git
+# Clone the repository
+git clone https://github.com/hema082004/Portfolio.git
+
+# Enter project directory
 cd Portfolio
+
+# Install dependencies
 npm install
+
+# Run the local development server
 npm run dev
 ```
-
----
-
-## Contact
-
-Feel free to reach out for collaboration or feedback:
-
-* **Portfolio:** [https://munna-scriptz.vercel.app](https://munna-scriptz.vercel.app)
-* **Instagram:** [https://www.instagram.com/rexon.notfr/](https://www.instagram.com/rexon.notfr/)
-* **Facebook:** [https://www.facebook.com/rexon.notfr](https://www.facebook.com/rexon.notfr)
-* **Linkdin:** [https://www.linkedin.com/in/munna-scriptz](https://www.linkedin.com/in/munna-scriptz)
-* **Email:** [munnascriptz@gmail.com](mailto:munnascriptz@gmail.com)
- 
----
-
-## Support
-
-If you find this project helpful or inspiring, consider giving it a ⭐ on GitHub. Your support means a lot.

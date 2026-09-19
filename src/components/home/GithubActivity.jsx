@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React, { useState, useEffect, useMemo } from 'react'
 import { FaGithub } from 'react-icons/fa'
 import { FiArrowUpRight, FiCalendar, FiGitBranch, FiUsers } from 'react-icons/fi'
 
@@ -7,13 +7,46 @@ const GITHUB_PROFILE = `https://github.com/${GITHUB_USERNAME}`
 const CONTRIBUTION_GRAPH = `https://ghchart.rshah.org/BF4A1A/${GITHUB_USERNAME}`
 
 const GithubActivity = () => {
-  const status = 'ready'
-  const profile = useMemo(() => ({
+  const [profile, setProfile] = useState({
     name: 'Hema Nandam',
     public_repos: 45,
     followers: 120,
     avatar_url: 'https://avatars.githubusercontent.com/u/121081344?v=4'
-  }), [])
+  })
+  const [status, setStatus] = useState('loading')
+
+  useEffect(() => {
+    let active = true
+    setStatus('loading')
+    fetch(`https://api.github.com/users/${GITHUB_USERNAME}`)
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error('Could not fetch GitHub data')
+        }
+        return res.json()
+      })
+      .then((data) => {
+        if (active) {
+          setProfile({
+            name: data.name || 'Hema Nandam',
+            public_repos: data.public_repos ?? 45,
+            followers: data.followers ?? 120,
+            avatar_url: data.avatar_url || 'https://avatars.githubusercontent.com/u/121081344?v=4'
+          })
+          setStatus('ready')
+        }
+      })
+      .catch((err) => {
+        if (active) {
+          console.error(err)
+          setStatus('ready') // Use fallbacks silently
+        }
+      })
+
+    return () => {
+      active = false
+    }
+  }, [])
 
   const activityStats = useMemo(() => {
     return [
@@ -72,13 +105,7 @@ const GithubActivity = () => {
       </div>
 
       <div className="mt-6 rounded-2xl border border-brand/10 bg-brand/[0.06] md:p-4">
-        {status === 'loading' && <p className="font-poppins text-sm text-brand/70">Loading GitHub profile...</p>}
-        {status === 'error' && (
-          <p className="font-poppins text-sm leading-6 text-brand/70">
-            GitHub profile stats are unavailable right now, but the contribution graph can still
-            be opened from the profile link.
-          </p>
-        )}
+        {status === 'loading' && <p className="font-poppins text-sm text-brand/70 p-2 text-center">Loading live contribution data...</p>}
         <div className="overflow-x-auto" style={{
           overflow: "auto",
           scrollbarWidth: "thin",

@@ -191,7 +191,7 @@ export const portfolioData = {
   ],
   socials: [
     { name: "Github", url: "https://github.com/hema082004", icon: "github" },
-    { name: "Linkedin", url: "https://linkedin.com", icon: "linkedin" },
+    { name: "Linkedin", url: "https://www.linkedin.com/in/hema-nandam-4415a8313", icon: "linkedin" },
     { name: "LeetCode", url: "https://leetcode.com", icon: "leetcode" },
   ],
   categories: [
